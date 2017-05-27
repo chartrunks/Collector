@@ -13,6 +13,8 @@
 		04CC62321ED9040400526558 /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04CC62301ED9040400526558 /* Collector.xcdatamodeld */; };
 		04CC62341ED9040400526558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CC62331ED9040400526558 /* Assets.xcassets */; };
 		04CC62371ED9040400526558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC62351ED9040400526558 /* LaunchScreen.storyboard */; };
+		04CC623F1ED90EAF00526558 /* Ck-3OxzVAAAJjlX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CC623E1ED90EAF00526558 /* Ck-3OxzVAAAJjlX.jpg */; };
+		04CC62411ED9148E00526558 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC62401ED9148E00526558 /* ItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04CC62331ED9040400526558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CC62361ED9040400526558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CC62381ED9040400526558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CC623E1ED90EAF00526558 /* Ck-3OxzVAAAJjlX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ck-3OxzVAAAJjlX.jpg"; sourceTree = "<group>"; };
+		04CC62401ED9148E00526558 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		04CC62281ED9040400526558 /* Collector */ = {
 			isa = PBXGroup;
 			children = (
+				04CC623E1ED90EAF00526558 /* Ck-3OxzVAAAJjlX.jpg */,
 				04CC62291ED9040400526558 /* AppDelegate.swift */,
 				04CC622B1ED9040400526558 /* ViewController.swift */,
 				04CC622D1ED9040400526558 /* Main.storyboard */,
+				04CC62401ED9148E00526558 /* ItemViewController.swift */,
 				04CC62331ED9040400526558 /* Assets.xcassets */,
 				04CC62351ED9040400526558 /* LaunchScreen.storyboard */,
 				04CC62381ED9040400526558 /* Info.plist */,
@@ -128,6 +134,7 @@
 			files = (
 				04CC62371ED9040400526558 /* LaunchScreen.storyboard in Resources */,
 				04CC62341ED9040400526558 /* Assets.xcassets in Resources */,
+				04CC623F1ED90EAF00526558 /* Ck-3OxzVAAAJjlX.jpg in Resources */,
 				04CC622F1ED9040400526558 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CC62321ED9040400526558 /* Collector.xcdatamodeld in Sources */,
+				04CC62411ED9148E00526558 /* ItemViewController.swift in Sources */,
 				04CC622C1ED9040400526558 /* ViewController.swift in Sources */,
 				04CC622A1ED9040400526558 /* AppDelegate.swift in Sources */,
 			);
