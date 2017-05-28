@@ -12,9 +12,10 @@ class ItemViewController: UIViewController, UIImagePickerControllerDelegate, UIN
 
     
     @IBOutlet weak var itemImageView: UIImageView!
-    @IBOutlet var titleTextField: UIView!
+    
     
     var imagePicker = UIImagePickerController()
+    @IBOutlet weak var titleTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,5 +40,12 @@ class ItemViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
 
     @IBAction func addTapped(_ sender: Any) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let item = Item(context: context)
+        item.title = titleTextField.text
+        item.image = UIImagePNGRepresentation(itemImageView.image!) as! NSData
+        
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        navigationController?.popViewController(animated: true)
     }
 }
